@@ -30,15 +30,64 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #000000;
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1760px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+
+.header {
+    background: #00010A;
+    height: 100px;
+    color: #FFFF;
+}
+.header__ihner{
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+   margin-top: 12px;
+    width: 128px;
+    height: 76px;
+    margin-right: 614px;
+    
+}
+.menu {
+   
+   
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.menu__item:hover{
+    color: #0F57C2;
+    transition: 0.4 ease-in-out;
+}
+.menu__link {
+}
+.language__btn {
+}
+.btn__limk {
+    font-size: 20px;
+}
+.btn__limk:hover {
+    font-size: 20px;
+    color: #0F57C2;
+}
+.btn__img {
+    height: 17px;
 }
