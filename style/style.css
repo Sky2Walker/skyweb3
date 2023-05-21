@@ -48,12 +48,16 @@ body {
     background: #00010A;
     height: 100px;
     color: #FFFF;
+    margin: 0px;
+    padding: 0px;
     
 }
 .header__ihner{
     color: #FFFF;
     display: flex;
     align-items: center;
+     
+    
 }
 .header__logo {
    margin-top: 12px;
