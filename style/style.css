@@ -120,6 +120,7 @@ body {
     top: 0px;
     z-index: -4;
     
+    
    
 }
 
@@ -159,13 +160,12 @@ padding: 20px  90px;
 font-family: 'Play',sans-serif;
 margin-bottom: 131px;
 transition: 0.4ms ease-in-out;
+z-index: -3;
+
 }
 
 .title__btn:hover {
  background: #0F21C2;
- 
-}
-.title__arrow {
-    margin-top: 131px;
-    margin-left: 836px;
+
+
 }
