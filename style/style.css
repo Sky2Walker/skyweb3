@@ -685,6 +685,13 @@ body {
     border: none;
     border-radius: 12px;
     margin-bottom: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 24px;
+    outline: none;
 
 
 }
@@ -712,12 +719,12 @@ body {
 
 .form__btn {
 
-    width: 574px;
+    width: 600px;
     height: 64px;
 
 
     background: #0F57C2;
-    box-shadow: 10px 10px 80px 20px rgba(4, 12, 33, 0.73);
+
     border-radius: 12px;
     cursor: pointer;
     border: none;
@@ -730,10 +737,16 @@ body {
     letter-spacing: 0.08em;
     margin-bottom: 100px;
 
+
 }
 
 .form__btn:hover {
     background-color: #0F21C2;
+}
+
+.form__btn:active {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 
@@ -847,7 +860,7 @@ body {
 }
 
 .copiryte {
-    font-family: 'Oswald',sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
