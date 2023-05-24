@@ -1233,8 +1233,8 @@ body {
     .about__item,
     .about__item:hover {
 
-        width: 220px;
-        height: 240px;
+        width: 200px;
+        height: 200px;
         margin-right: 70px;
         margin-bottom: 60px;
     }
@@ -1271,7 +1271,9 @@ body {
     }
 
 
-
+    .about {
+        height: 1100px;
+    }
 }
 
 
@@ -1321,9 +1323,16 @@ body {
         height: 166px;
 
     }
-    .about__items{
+
+    .about__items {
         display: block;
     }
+
+    .about {
+        height: 1100px;
+    }
+
+
 }
 
 @media (max-width:700px) {
