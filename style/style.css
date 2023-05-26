@@ -91,10 +91,14 @@ body {
 
 .menu__link {}
 
-.language__btn {}
+.language__btn {
+    display: flex;
+    align-items: center;
+}
 
 .btn__limk {
     font-size: 20px;
+    margin-right: 4px;
 }
 
 .btn__limk:hover {
@@ -104,7 +108,9 @@ body {
 
 .btn__img {
     height: 17px;
-    width: 3px;
+    width: 1px;
+    background-color: #FFFFFF;
+    margin-right: 4px;
 }
 
 
@@ -796,6 +802,11 @@ body {
     margin-right: 120px;
 }
 
+.submenu__link:hover {
+    color: #0F57C2;
+    transition: 0.4 ease-in-out;
+}
+
 .contact__group {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -877,547 +888,211 @@ body {
 
 
 
-
-
-
-
-
-@media (max-width:1700px) {
-    .header__logo {
-        margin-right: 650px;
-    }
-
-    .menu__item {
-        margin-right: 70px;
-    }
-
-    .title__text {
-        font-size: 70px;
-        line-height: 80px;
-    }
-
-
-    .about__title {
-        font-size: 35px;
-
-    }
-
-    .about__item {
-
-        width: 276px;
-        height: 290px;
-        margin-right: 139px;
-        margin-bottom: 92px;
-    }
-
-    .about__icon {
-        height: 100px;
-        width: 100px;
-        margin-top: 62px;
-        margin-left: 82px;
-        margin-bottom: 26px;
-    }
-
-    .about__item-title {
-
-        font-size: 28px;
-        line-height: 40px;
-
-
-
-
-    }
-
-    .about__under-txt {
-
-        font-size: 20px;
-        line-height: 28px;
-        /* or 140% */
-
-
-
-        width: 244px;
-        height: 196px;
-
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1600px) {
-    .header__logo {
-        margin-right: 450px;
-    }
-
-
-    .title__text {
-        font-size: 60px;
-        line-height: 70px;
-    }
-
-
-    .title__subtitle {
-        font-size: 30px;
-        line-height: 36px;
-
-        width: 800px;
-        letter-spacing: 0.02em;
-        margin-bottom: 100px;
-    }
-
-
-
-    .about__title {
-        font-size: 35px;
-
-    }
-
-    .about__item,
-    .about__item:hover {
-
-        width: 240px;
-        height: 250px;
-        margin-right: 100px;
-        margin-bottom: 80px;
-    }
-
-    .about__icon {
-        height: 90px;
-        width: 90px;
-        margin-top: 62px;
-        margin-left: 82px;
-        margin-bottom: 26px;
-    }
-
-    .about__item-title {
-
-        font-size: 18px;
-        line-height: 30px;
-
-
-
-
-    }
-
-    .about__under-txt {
-
-        font-size: 15px;
-        line-height: 20px;
-        /* or 140% */
-
-
-
-        width: 220px;
-        height: 196px;
-
-    }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:1400px) {
     .header__logo {
-        margin-right: 300px;
+        margin-right: 279px;
+    }
+
+    .menu__item {
+        margin-right: 54px;
     }
 
 
-    .about__title {
-        font-size: 35px;
+    .title {
+        height: 771px;
 
     }
 
-    .about__item,
-    .about__item:hover {
+    .title__text {
+        font-size: 56px;
+        line-height: 65px;
 
-        width: 210px;
-        height: 220px;
-        margin-right: 80px;
+    }
+
+    .title__subtitle {
+        font-size: 26px;
+        line-height: 36px;
+        width: 558px;
+        margin-bottom: 72px;
+    }
+
+    .title__btn {
+        width: 315px;
+        height: 54px;
+        padding: 17px 59px;
+    }
+
+    .about__us {
+        font-size: 36px;
+        line-height: 60px;
         margin-bottom: 80px;
     }
 
+    .about__item,
+    .about__item:hover {
+        width: 204px;
+        height: 204px;
+        margin-bottom: 70px;
+        margin-right: 129px;
+    }
+
     .about__icon {
-        height: 60px;
         width: 60px;
-        margin-top: 62px;
-        margin-left: 80px;
-        margin-bottom: 26px;
-    }
-
-    .about__item-title {
-
-        font-size: 18px;
-        line-height: 30px;
-
-
-
-
-    }
-
-    .about__under-txt {
-
-        font-size: 15px;
-        line-height: 20px;
-        /* or 140% */
-
-
-
-        width: 190px;
-        height: 196px;
-
-    }
-}
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1200px) {
-    .menu__item {
-        margin-right: 60px;
-        font-size: 15px;
-
-    }
-
-    .btn__limk {
-        font-size: 15px;
-    }
-
-
-
-    .about__title {
-        font-size: 35px;
-
-    }
-
-    .about__item,
-    .about__item:hover {
-
-        width: 210px;
-        height: 220px;
-        margin-right: 80px;
-        margin-bottom: 60px;
-    }
-
-    .about__icon {
         height: 60px;
-        width: 60px;
-        margin-top: 62px;
-        margin-left: 80px;
-        margin-bottom: 26px;
-    }
-
-    .about__item-title {
-
-        font-size: 18px;
-        line-height: 30px;
-
-
-
-
+        margin-top: 42px;
+        margin-left: 72px;
+        margin-bottom: 20px;
     }
 
     .about__under-txt {
-
-        font-size: 15px;
+        font-size: 16px;
         line-height: 20px;
-        /* or 140% */
-
-
-
-        width: 190px;
-        height: 196px;
-
-    }
-
-}
-
-
-
-
-
-
-
-
-@media (max-width:1100px) {
-    .menu__item {
-        margin-right: 50px;
-        font-size: 15px;
-
-    }
-
-    .btn__limk {
-        font-size: 15px;
-    }
-
-    .header__logo {
-        margin-right: 250px;
-    }
-
-}
-
-
-@media (max-width:1000px) {
-    .menu__item {
-        margin-right: 30px;
-        font-size: 15px;
-
-    }
-
-    .btn__limk {
-        font-size: 15px;
-    }
-
-    .header__logo {
-        margin-right: 100px;
-        width: 100px;
-        height: 50px;
-    }
-
-    .title__text {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .title__subtitle {
-        font-size: 25px;
-        line-height: 30px;
-
-        width: 600px;
-        letter-spacing: 0.02em;
-        margin-bottom: 100px;
-    }
-
-
-    .about__title {
-        font-size: 35px;
-
-    }
-
-    .about__item,
-    .about__item:hover {
-
-        width: 200px;
-        height: 200px;
-        margin-right: 70px;
-        margin-bottom: 60px;
-    }
-
-    .about__icon {
-        height: 40px;
-        width: 40px;
-        margin-top: 62px;
-        margin-left: 80px;
-        margin-bottom: 26px;
-    }
-
-    .about__item-title {
-
-        font-size: 18px;
-        line-height: 30px;
-
-
-
-
-    }
-
-    .about__under-txt {
-
-        font-size: 15px;
-        line-height: 14px;
-        /* or 140% */
-
-
-
-        width: 170px;
-        height: 166px;
+        width: 192px;
+        height: 180px;
+        padding-left: 6px;
 
     }
 
 
-    .about {
-        height: 1100px;
-    }
-}
-
-
-
-@media (max-width:900px) {
-    .about__title {
-        font-size: 35px;
-
+    .out__team-title {
+        font-size: 36px;
+        line-height: 60px;
     }
 
-    .about__item,
-    .about__item:hover {
-
-        width: 220px;
-        height: 240px;
-        margin-right: 70px;
-        margin-bottom: 60px;
+    .left__side-img,
+    .right__side-img {
+        width: 650px;
+        height: 629px;
     }
 
-    .about__icon {
-        height: 40px;
-        width: 40px;
-        margin-top: 62px;
-        margin-left: 80px;
-        margin-bottom: 26px;
+    .left__side-title,
+    .right__side-title {
+        font-size: 40px;
+        line-height: 59px;
     }
 
-    .about__item-title {
+    .left__side-sub,
+    .right__side-sub {
+        font-size: 32px;
+        line-height: 60px;
+    }
 
-        font-size: 18px;
-        line-height: 30px;
+    .left__side-quote,
+    .right__side-quote {
+        width: 650px;
+        height: 114px;
+        font-size: 26px;
+        line-height: 148%;
+    }
 
+    .slider .slick-arrow {
 
-
+        width: 23px;
+        height: 46px;
 
     }
 
-    .about__under-txt {
-
-        font-size: 15px;
-        line-height: 14px;
-        /* or 140% */
-
-
-
-        width: 170px;
-        height: 166px;
-
-    }
-
-    .about__items {
-        display: block;
-    }
-
-    .about {
-        height: 1100px;
+    .slider__img {
+        width: 1096px;
+        height: 670px;
+        justify-content: center;
+        align-items: center;
     }
 
 
-}
+    .slider .slick-dots button {
 
-@media (max-width:700px) {
-    .menu__item {
+        width: 14px;
+        height: 14px;
+
+        margin-right: 24px;
+
+    }
+
+
+
+    .usage__title {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .usage__item {
+        width: 426px;
+        height: 234px;
         margin-right: 20px;
-        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .usage__icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 12px;
 
     }
 
-    .btn__limk {
-        font-size: 15px;
-    }
-
-    .header__logo {
-        margin-right: 50px;
-
-    }
-
-    .title__subtitle {
+    .item__name {
         font-size: 20px;
-        line-height: 25px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
 
-        width: 500px;
-        letter-spacing: 0.02em;
-        margin-bottom: 100px;
+    .item__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .contact__title {
+        font-size: 36px;
+        line-height: 60px;
+        margin-bottom: 80px;
+    }
+
+    .contact__form {}
+
+    .form__input {
+        width: 426px;
+        height: 64px;
+    }
+
+    .form__input::placeholder {
+        padding-left: 24px;
+        padding-top: 16px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+
+    .form__btn {
+        width: 450px;
+        height: 64px;
+        font-size: 16px;
+        line-height: 19px;
+
     }
 
 
 
-}
-
-
-@media (max-width:600px) {
-    .menu__item {
-        margin-right: 20px;
-        font-size: 15px;
-
+    .subfooter__logo {
+        width: 229px;
+        height: 132px;
+        margin-right: 106px;
     }
 
-    .btn__limk {
-        font-size: 15px;
-    }
-
-    .header__logo {
+    .submenu__link {
         margin-right: 50px;
-
+        font-size: 24px;
+        line-height: 36px;
+        
     }
 
 
-    .title__subtitle {
-        font-size: 20px;
-        line-height: 25px;
-
-        width: 300px;
-        letter-spacing: 0.02em;
-        margin-bottom: 100px;
+    .contact__group{
+        margin-right: 124px;
     }
 
 
-
-
-    .title__btn {
-        width: 100px;
-        height: 34px;
-
-
-        background: #0F57C2;
-        box-shadow: 10px 10px 80px 20px rgba(4, 12, 33, 0.73);
-        border-radius: 12px;
-        padding: 10px 40px;
-        font-family: 'Play', sans-serif;
-        margin-bottom: 131px;
-        transition: 0.4ms ease-in-out;
-        z-index: -3;
-
+    .foot__line{
+        width: 1320px;
     }
-
-
-}
-
-@media (max-width:350px) {
-    .title__text {
-        font-size: 14px;
-        line-height: 10px;
-    }
-
 }
